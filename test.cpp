@@ -17,3 +17,13 @@ int main()
     }
     cout << endl;
 }
+
+
+// #include<fstream>
+// ifstream fin("input.txt");
+// ofstream fout("output.txt");
+//fin>>start;
+//fout<<start;
+
+//  ios::sync_with_stdio(false);
+//  cin.tie(NULL);
