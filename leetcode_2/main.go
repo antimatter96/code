@@ -37,10 +37,53 @@ func main() {
 	// fmt.Println(oddCells(2, 2, [][]int{[]int{1, 1}, []int{0, 0}}))
 
 	// fmt.Println(flipAndInvertImage([][]int{{1, 1, 0}, {1, 0, 1}, {0, 0, 0}}))
-
 	// fmt.Println(flipAndInvertImage([][]int{{1, 1, 0, 0}, {1, 0, 0, 1}, {0, 1, 1, 1}, {1, 0, 1, 0}}))
 
-	fmt.Println(diagonalSum([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
-	fmt.Println(diagonalSum([][]int{{1, 1, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 1}}))
-	fmt.Println(diagonalSum([][]int{{5}}))
+	// fmt.Println(diagonalSum([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
+	// fmt.Println(diagonalSum([][]int{{1, 1, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 1}}))
+	// fmt.Println(diagonalSum([][]int{{5}}))
+
+	// fmt.Println(maxProduct([]int{3, 4, 5, 2}))
+	// fmt.Println(maxProduct([]int{1, 5, 4, 5}))
+	// fmt.Println(maxProduct([]int{3, 7}))
+
+	// fmt.Println(busyStudent([]int{1, 2, 3}, []int{3, 2, 7}, 4))
+	// fmt.Println(busyStudent([]int{4}, []int{4}, 4))
+	// fmt.Println(busyStudent([]int{4}, []int{4}, 5))
+	// fmt.Println(busyStudent([]int{1, 1, 1, 1}, []int{1, 3, 2, 4}, 7))
+	// fmt.Println(busyStudent([]int{9, 8, 7, 6, 5, 4, 3, 2, 1}, []int{10, 10, 10, 10, 10, 10, 10, 10, 10}, 5))
+
+	// fmt.Println(sumZero(5))
+	// fmt.Println(sumZero(3))
+	// fmt.Println(sumZero(1))
+	// fmt.Println(sumZero(1000))
+
+	// fmt.Println(countNegatives2([][]int{
+	// 	{4, 3, 2, -1},
+	// 	{3, 2, 1, -1},
+	// 	{1, 1, -1, -2},
+	// 	{-1, -1, -2, -3},
+	// }))
+	// fmt.Println(countNegatives2([][]int{
+	// 	{3, 2},
+	// 	{1, 0},
+	// }))
+	// fmt.Println(countNegatives2([][]int{
+	// 	{1, -1},
+	// 	{-1, -1},
+	// }))
+	// fmt.Println(countNegatives2([][]int{
+	// 	{1, 1},
+	// 	{-1, -1},
+	// }))
+	// fmt.Println(countNegatives2([][]int{
+	// 	{-1},
+	// }))
+
+	// numberOfRecentCalls()
+
+	fmt.Println(uniqueOccurrences([]int{1, 2, 2, 1, 1, 3}))
+	fmt.Println(uniqueOccurrences([]int{1, 2}))
+	fmt.Println(uniqueOccurrences([]int{-3, 0, 1, -3, 1, 1, 1, -3, 10, 0}))
+
 }
