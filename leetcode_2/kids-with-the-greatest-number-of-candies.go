@@ -16,3 +16,7 @@ func kidsWithCandies(candies []int, extraCandies int) []bool {
 	return arr
 
 }
+
+func driver__kidsWithCandies() {
+
+}

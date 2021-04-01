@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func oddCells(m int, n int, indices [][]int) int {
 	incRow := make(map[int]int)
 	incCol := make(map[int]int)
@@ -21,4 +23,9 @@ func oddCells(m int, n int, indices [][]int) int {
 	}
 
 	return count
+}
+
+func driver__oddCells() {
+	fmt.Println(oddCells(2, 3, [][]int{[]int{0, 1}, []int{1, 1}}))
+	fmt.Println(oddCells(2, 2, [][]int{[]int{1, 1}, []int{0, 0}}))
 }

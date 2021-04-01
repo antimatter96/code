@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func diagonalSum(mat [][]int) int {
 	n := len(mat)
 
@@ -15,4 +17,10 @@ func diagonalSum(mat [][]int) int {
 
 	return sum
 
+}
+
+func driver__diagonalSum() {
+	fmt.Println(diagonalSum([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
+	fmt.Println(diagonalSum([][]int{{1, 1, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 1}}))
+	fmt.Println(diagonalSum([][]int{{5}}))
 }

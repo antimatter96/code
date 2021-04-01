@@ -10,3 +10,7 @@ func shuffle(nums []int, n int) []int {
 	}
 	return arr
 }
+
+func driver__shuffle() {
+
+}

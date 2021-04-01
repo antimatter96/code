@@ -1,10 +1,5 @@
 package main
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func getDecimalValue(head *ListNode) int {
 	count := 0
 	temp := head
@@ -16,4 +11,8 @@ func getDecimalValue(head *ListNode) int {
 	}
 
 	return count
+}
+
+func driver__getDecimalValue() {
+
 }

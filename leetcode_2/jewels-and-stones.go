@@ -16,3 +16,7 @@ func numJewelsInStones(jewels string, stones string) int {
 
 	return count
 }
+
+func driver__numJewelsInStones() {
+
+}

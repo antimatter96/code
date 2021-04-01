@@ -9,3 +9,7 @@ func runningSum(nums []int) []int {
 	}
 	return arr
 }
+
+func driver__runningSum() {
+
+}

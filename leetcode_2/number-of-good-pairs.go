@@ -13,3 +13,7 @@ func numIdenticalPairs(nums []int) int {
 
 	return count / 2
 }
+
+func driver__numIdenticalPairs() {
+
+}

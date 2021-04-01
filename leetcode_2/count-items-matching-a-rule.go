@@ -12,3 +12,7 @@ func countMatches(items [][]string, ruleKey string, ruleValue string) int {
 	}
 	return count
 }
+
+func driver__countMatches() {
+
+}

@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func countNegatives(grid [][]int) int {
 	binarySearchForFirstNegative := func(arr []int) int {
 		if arr[0] < 0 {
@@ -50,4 +52,50 @@ func countNegatives2(grid [][]int) int {
 	}
 
 	return count
+}
+
+func driver__countNegatives() {
+	fmt.Println(countNegatives([][]int{
+		{4, 3, 2, -1},
+		{3, 2, 1, -1},
+		{1, 1, -1, -2},
+		{-1, -1, -2, -3},
+	}))
+	fmt.Println(countNegatives([][]int{
+		{3, 2},
+		{1, 0},
+	}))
+	fmt.Println(countNegatives([][]int{
+		{1, -1},
+		{-1, -1},
+	}))
+	fmt.Println(countNegatives([][]int{
+		{1, 1},
+		{-1, -1},
+	}))
+	fmt.Println(countNegatives([][]int{
+		{-1},
+	}))
+
+	fmt.Println(countNegatives([][]int{
+		{4, 3, 2, -1},
+		{3, 2, 1, -1},
+		{1, 1, -1, -2},
+		{-1, -1, -2, -3},
+	}))
+	fmt.Println(countNegatives2([][]int{
+		{3, 2},
+		{1, 0},
+	}))
+	fmt.Println(countNegatives2([][]int{
+		{1, -1},
+		{-1, -1},
+	}))
+	fmt.Println(countNegatives2([][]int{
+		{1, 1},
+		{-1, -1},
+	}))
+	fmt.Println(countNegatives2([][]int{
+		{-1},
+	}))
 }

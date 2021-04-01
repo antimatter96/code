@@ -24,3 +24,9 @@ func minTimeToVisitAllPoints(points [][]int) int {
 
 	return dist
 }
+
+func driver__minTimeToVisitAllPoints() {
+	minTimeToVisitAllPoints([][]int{[]int{1, 1}, []int{3, 4}, []int{-1, 0}})
+	minTimeToVisitAllPoints([][]int{[]int{3, 2}, []int{-2, 2}})
+
+}

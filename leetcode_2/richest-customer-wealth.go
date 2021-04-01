@@ -14,3 +14,7 @@ func maximumWealth(accounts [][]int) int {
 	}
 	return max
 }
+
+func driver__maximumWealth() {
+
+}

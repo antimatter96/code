@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func createTargetArray(nums []int, indexes []int) []int {
 	n := len(nums)
 	arr := make([]int, 0, n)
@@ -19,4 +21,11 @@ func createTargetArray(nums []int, indexes []int) []int {
 	}
 
 	return arr
+}
+
+func driver__createTargetArray() {
+	nums := []int{0, 1, 2, 3, 4}
+	index := []int{0, 1, 2, 2, 1}
+
+	fmt.Println(createTargetArray(nums, index))
 }

@@ -57,7 +57,7 @@ func (this *RecentCounter) Ping2(t int) int {
 	return len(this.arr)
 }
 
-func numberOfRecentCalls() {
+func driver__Ping() {
 	obj := RecentCounterConstructor()
 	fmt.Println(obj.Ping2(642))
 	fmt.Println(obj.Ping2(1849))

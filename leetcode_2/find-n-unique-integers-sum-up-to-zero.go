@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func sumZero(n int) []int {
 	arr := make([]int, n)
 
@@ -15,4 +17,11 @@ func sumZero(n int) []int {
 	arr[n-1] = -(n - 1) * (n) / 2
 
 	return arr
+}
+
+func driver__sumZero() {
+	fmt.Println(sumZero(5))
+	fmt.Println(sumZero(3))
+	fmt.Println(sumZero(1))
+	fmt.Println(sumZero(1000))
 }

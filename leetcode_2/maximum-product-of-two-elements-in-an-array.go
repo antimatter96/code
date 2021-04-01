@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func maxProduct(nums []int) int {
 	n := len(nums)
 
@@ -16,4 +18,10 @@ func maxProduct(nums []int) int {
 	}
 
 	return max
+}
+
+func driver__maxProduct() {
+	fmt.Println(maxProduct([]int{3, 4, 5, 2}))
+	fmt.Println(maxProduct([]int{1, 5, 4, 5}))
+	fmt.Println(maxProduct([]int{3, 7}))
 }

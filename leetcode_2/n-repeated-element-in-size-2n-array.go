@@ -13,3 +13,7 @@ func repeatedNTimes(A []int) int {
 
 	return -1
 }
+
+func driver__repeatedNTimes() {
+
+}

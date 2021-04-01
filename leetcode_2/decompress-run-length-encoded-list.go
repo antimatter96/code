@@ -15,3 +15,7 @@ func decompressRLElist(nums []int) []int {
 
 	return arr
 }
+
+func driver__decompressRLElist() {
+
+}

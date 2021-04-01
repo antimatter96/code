@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func flipAndInvertImage(image [][]int) [][]int {
 	n := len(image)
 
@@ -34,4 +36,9 @@ func flipAndInvertImage(image [][]int) [][]int {
 	}
 
 	return image
+}
+
+func driver__flipAndInvertImage() {
+	fmt.Println(flipAndInvertImage([][]int{{1, 1, 0}, {1, 0, 1}, {0, 0, 0}}))
+	fmt.Println(flipAndInvertImage([][]int{{1, 1, 0, 0}, {1, 0, 0, 1}, {0, 1, 1, 1}, {1, 0, 1, 0}}))
 }

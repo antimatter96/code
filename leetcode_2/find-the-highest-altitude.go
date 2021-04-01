@@ -15,3 +15,7 @@ func largestAltitude(gain []int) int {
 
 	return max
 }
+
+func driver__largestAltitude() {
+
+}

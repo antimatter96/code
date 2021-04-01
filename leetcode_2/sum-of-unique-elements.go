@@ -17,3 +17,7 @@ func sumOfUnique(nums []int) int {
 
 	return sum
 }
+
+func driver__sumOfUnique() {
+
+}

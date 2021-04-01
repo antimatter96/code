@@ -10,3 +10,7 @@ func xorOperation(n int, start int) int {
 
 	return result
 }
+
+func driver__xorOperation() {
+
+}

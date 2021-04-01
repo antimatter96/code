@@ -24,3 +24,7 @@ func smallerNumbersThanCurrent(nums []int) []int {
 
 	return unsorted
 }
+
+func driver__smallerNumbersThanCurrent() {
+
+}
