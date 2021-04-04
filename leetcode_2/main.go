@@ -47,5 +47,35 @@ func main() {
 
 	//driver__minPartitions()
 
-	driver__destCity()
+	//driver__destCity()
+
+	// driver__freqAlphabets()
+
+	//driver__maximum69Number()
+
+	// driver__sortString()
+
+	// driver__countGoodRectangles()
+
+	//driver__uniqueMorseRepresentations()
+
+	//driver__defangIPaddr()
+
+	//driver__AddCar()
+
+	//driver__numberOfSteps()
+
+	//driver__restoreString()
+
+	//driver__subtractProductAndSum()
+
+	//driver__interpret()
+
+	//driver__decode()
+
+	//driver__balancedStringSplit()
+
+	//driver__maxDepth()
+
+	//driver__arrayStringsAreEqual()
 }
