@@ -78,4 +78,50 @@ func main() {
 	//driver__maxDepth()
 
 	//driver__arrayStringsAreEqual()
+
+	//driver__removeDuplicatesFromSortedarray()
+
+	//driver__singleNumber()
+
+	//driver__twoSum()
+
+	//driver__moveZeroes()
+
+	//driver__plusOne()
+
+	//driver__rotate()
+
+	//driver__reverseString()
+
+	//driver__reverseIneger()
+
+	//driver__countConsistentStrings()
+
+	//driver__toLowerCase()
+
+	//driver__truncateSentence()
+
+	//driver__squareIsWhite()
+
+	//driver__halvesAreAlike()
+
+	//driver__generateTheString()
+
+	//driver__mergeAlternately()
+
+	//driver__selfDividingNumbers()
+
+	//driver__sortArrayByParity()
+
+	//driver__findDuplicates()
+
+	//driver__findingUsersActiveMinutes()
+
+	//driver__maxCoins()
+
+	//drive__subsets()
+
+	//driver__numberOfMatches()
+
+	//driver__mergeTrees()
 }
