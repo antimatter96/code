@@ -124,4 +124,14 @@ func main() {
 	//driver__numberOfMatches()
 
 	//driver__mergeTrees()
+
+	//driver__isValid()
+
+	//driver__arraySign()
+
+	//driver__judgeCircle()
+
+	//driver__diStringMatch()
+
+	//driver__heightChecker()
 }
