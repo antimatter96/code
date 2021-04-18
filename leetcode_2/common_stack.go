@@ -38,6 +38,10 @@ func (stk *intStack) Empty() bool {
 	return len(stk.arr) == 0
 }
 
+func (stk *intStack) Top() int {
+	return stk.arr[len(stk.arr)-1]
+}
+
 type stringStack struct {
 	arr []string
 }
@@ -55,4 +59,8 @@ func (stk *stringStack) Pop() string {
 
 func (stk *stringStack) Empty() bool {
 	return len(stk.arr) == 0
+}
+
+func (stk *stringStack) Top() string {
+	return stk.arr[len(stk.arr)-1]
 }
