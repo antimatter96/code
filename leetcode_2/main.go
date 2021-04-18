@@ -134,4 +134,12 @@ func main() {
 	//driver__diStringMatch()
 
 	//driver__heightChecker()
+
+	//driver__permute()
+
+	//driver__nextGreaterElements()
+
+	//driver__checkIfPangram()
+
+	driver__finalPrices()
 }
