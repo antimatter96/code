@@ -141,5 +141,12 @@ func main() {
 
 	//driver__checkIfPangram()
 
-	driver__finalPrices()
+	//driver__finalPrices()
+
+	//driver__maxNumberOfBalloons()
+
+	//testHeap()
+	//testBasicHeap()
+
+	driver__lastStoneWeight()
 }
